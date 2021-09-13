@@ -12,11 +12,6 @@ My First WebPage
 
 <body>
 
-<body bgcolor="gray">  
-<body text="black"> 
-<body link="blue"> 
-
-
 <h1>Jessica's Web Page</h1>
 
 <hr>
