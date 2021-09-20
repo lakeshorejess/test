@@ -10,7 +10,7 @@ My First WebPage
 
 </head> 
 
-<body>
+<body style='background-color:lightblue'>
 
 <h1>Jessica's Web Page</h1>
 
@@ -25,7 +25,30 @@ My First WebPage
 <p>
 
 <img src="coding.jpg">
+  
+<p id="demo">Click below to guess.</p>
 
+<button type="button" onclick='document.getElementById("demo").innerHTML = "No way!"'>Chinese</button>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Yes! Genius!!"'>Sushi</button>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Wrong!"'>Mexican</button>
+<br><br>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Click below to guess."'>Reset</button>
+
+<h3>Rock Paper Scissors</h3>
+
+<p id="demo2">Click on a button to see if you win.</p>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Tie! I was rock too!"'>Rock</button>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "You win!!! I was rock. Paper covers rock."'>Paper</button>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "You lose! Rock smashes scissors!"'>Scissors</button>
+<br><br>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Click on a button to see if you win."'>Reset</button>
 
 </body>  
 
